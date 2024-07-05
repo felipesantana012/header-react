@@ -1,18 +1,16 @@
-
-import './App.css'
-import Footer from './componentes/Footer'
-import Header from './componentes/Header'
-import Main from './componentes/Main'
+import "./App.css";
+import Footer from "./componentes/Footer";
+import Header from "./componentes/Header";
+import Main from "./componentes/Main";
 
 const App = () => {
-
   return (
-    <div className='container-geral'>
+    <div className="container-geral">
       <Header />
       <Main />
-      <Footer />
+      <Footer nome={"Felipe"} />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

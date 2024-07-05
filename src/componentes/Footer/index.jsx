@@ -1,9 +1,9 @@
 import "./Footer.css";
 
-const Footer = () => {
+const Footer = ({nome}) => {
   return (
     <footer className="rodape">
-      <p>Manipulando Componentes +Prati</p>
+      <p>Desenvolvido Por {nome} +Prati</p>
     </footer>
   );
 };
