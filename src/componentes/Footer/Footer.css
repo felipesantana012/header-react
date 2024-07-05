@@ -1,0 +1,13 @@
+.rodape{
+    min-height: 10vh;
+    box-shadow: 1px 3px 15px 1px rgba(0, 0, 0, 0.767);
+    background: rgba(201, 201, 201, 0.2);
+  
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.rodape p{
+padding: 1rem;
+}

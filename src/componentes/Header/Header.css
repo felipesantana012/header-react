@@ -1,0 +1,43 @@
+.cabecalho{
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    box-shadow: 1px 3px 15px 1px rgba(0, 0, 0, 0.767);
+    background: rgba(201, 201, 201, 0.2);
+}
+
+.cabecalho h2{
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+    font-size: 1.5rem;
+}
+
+.cabecalho h2 span{
+    color: rgb(141, 206, 250);
+    opacity: 0.8;
+    font-size: 1.5rem;
+}
+
+.cabecalho h2:hover{
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.cabecalho ul{
+    display: flex;
+    gap: 20px;
+}
+
+.cabecalho ul li a{
+    opacity: 0.8;
+    color: white;
+    font-size: 1.1rem;
+}
+
+
+.cabecalho ul li a:hover{
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
